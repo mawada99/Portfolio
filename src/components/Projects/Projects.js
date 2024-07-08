@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import editor from "../../Assets/Projects/project3.jpg";
+import chatify from "../../Assets/Projects/project1.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/project2.png";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Accurate Logistics"
+              description="Accurate Logistics is a specialized system for managing shipping companies, parcel transportation, and postal services. It has been designed and developed using the latest programming languages and Oracle databases, along with two smartphone applications for the customer and the delivery agent (Android and iPhone)."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://accurate.accuratess.com/"
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="landing page"
+              description="Accurate Smart Solutions is a landing page for software company "
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://accuratess.com/aboutPage"
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Oya"
+              description="The React Online Store is a modern, responsive, and user-friendly e-commerce platform designed to provide a seamless shopping experience. Built with React, this online store offers a robust and efficient solution for both customers and administrators."
+              ghLink="https://github.com/mawada99/Oya-FrontEnd-"
+              demoLink="https://oya-frontend.vercel.app/"              
             />
           </Col>
 
