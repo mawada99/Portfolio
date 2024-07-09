@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/Projects/project4.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/project3.jpg";
 import chatify from "../../Assets/Projects/project1.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import suicide from "../../Assets/Projects/project5.png";
 import bitsOfCode from "../../Assets/Projects/project2.png";
 
 function Projects() {
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="editor-designer"
+              description="A creative editor based on Fabric.js. It is an open-source creative image editor based on Fabric.js, aimed at allowing developers to quickly build their own image editor. It can be applied to scenarios such as poster design, cover design for Xiaohongshu public accounts, banner design, and more."
+              ghLink="https://github.com/mawada99/editor-designer"
+              demoLink="https://editor-designer.vercel.app/"
             />
           </Col>
 
@@ -69,14 +69,14 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="landing page by wordpress"
+              description="Create a stunning and highly effective landing page using WordPress to captivate your audience and drive conversions. This landing page is designed with a user-friendly interface and customizable features, making it easy to tailor to your specific needs. Ideal for marketing campaigns, product launches, event registrations, or any targeted content, this WordPress landing page ensures a seamless user experience."
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://vitalkonzept-leipzig.com/" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
