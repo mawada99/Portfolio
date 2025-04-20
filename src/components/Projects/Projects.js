@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/project4.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import pos from "../../Assets/Projects/pos.webp"
 import editor from "../../Assets/Projects/project3.jpg";
 import chatify from "../../Assets/Projects/project1.png";
 import suicide from "../../Assets/Projects/project5.png";
@@ -28,20 +28,21 @@ function Projects() {
               title="Accurate Logistics"
               description="Accurate Logistics is a specialized system for managing shipping companies, parcel transportation, and postal services. It has been designed and developed using the latest programming languages and Oracle databases, along with two smartphone applications for the customer and the delivery agent (Android and iPhone)."
               // ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://accurate.accuratess.com/"
+              demoLink="https://logistics.accuratess.dev"
+            />
+          </Col>
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pos}
+              isBlog={false}
+              title="A POS (Point of Sale) system is a technology-based"
+              description="A POS (Point of Sale) system is a technology-based solution that enables businesses to process transactions and manage sales at the point of purchase. It typically consists of hardware, such as a cash register or a tablet, and software that facilitates various functions, including inventory management, sales tracking, and payment processing.
+                          Pos system enhances efficiency by automating tasks like inventory management and sales reporting, it also enables businesses to save time and reduce errors."
+              demoLink="https://pos.accuratess.dev/"     
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="landing page"
-              description="Accurate Smart Solutions is a landing page for software company "
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://accuratess.com/aboutPage"
-            />
-          </Col>
+         
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -75,18 +76,18 @@ function Projects() {
               demoLink="https://vitalkonzept-leipzig.com/" 
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
+           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="landing page"
+              description="Accurate Smart Solutions is a landing page for software company "
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://accuratess.com/aboutPage"
             />
-          </Col> */}
+          </Col>
+
+         
         </Row>
       </Container>
     </Container>
